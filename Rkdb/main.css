@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Mynerve';
+    src: url('/Assets/Fonts/Mynerve-Regular.ttf');
+  }
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+  
+.yellow{
+    color: #deb522;
+}
+.black{
+    color: #0c0b00;
+}
+.bg-black{
+  background-color: #0c0b00;
+}
+body{
+    background: linear-gradient(to right,#deb522 50%,#0c0b00 50%);
+    height: 100vh;
+}
+.container1{
+    width: 100%;
+    max-width:600px;
+    
+    max-height: 700px;
+    
+    background-color: #128bb5;
+    transform:translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+.search-bar{
+
+    display: grid;
+}
+
+.input-bar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+  }
+  
+  .input-bar input[type="text"] {
+    background-color: #0c0b00;
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    color: #deb522;
+    font-family:"Mynerve", sans-serif;
+    
+  }
+  
+  .search-button[type="submit"] {
+    padding: 8px;
+    background-color: #deb522;
+    border: none;
+    color: #0c0b00;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    max-width: 200px;
+    font-family:"Mynerve", sans-serif;
+    
+    
+
+  }
+.poster{
+  width: 100%;
+  max-width: 150px;
+  height:100%;
+  max-height: 200px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 auto;
+}
+.andDetails{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #deb522;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+  max-width:200px;
+  font-family:'Exo 2', sans-serif;
+  text-align: center;
+  
+}
+.genreBadges{
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 2px;
+  
+}
+.logo{
+    transform:translate(-50%,-10%);
+    top: 5%;
+    left: 50%;
+    position: absolute;
+    background-color: #deb522;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
